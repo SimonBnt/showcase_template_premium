@@ -1,0 +1,17 @@
+@keyframes carousel {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-8rem * 16 - 1rem * 16));
+    }
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(16px);
+    }
+}
